@@ -58,3 +58,7 @@ footer{max-width:1200px;margin:40px auto 0;padding:24px 20px 40px;color:var(--mu
 @media(max-width:860px){.mhero,.two,.builder{grid-template-columns:1fr}.hero,.mhero{padding:44px 22px}.top{padding:10px 14px}.badge{display:none}}
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}.glow,.dot{animation:none}}
 @media print{.top,footer,.noprint{display:none}body{background:#fff}.paper{border:0}.reveal{opacity:1;transform:none}}
+.disc{background:#111827;color:#fde68a;font-size:12.5px;text-align:center;padding:7px 14px;border-bottom:1px solid rgba(255,255,255,.08)}
+.top nav a{color:#c3cad9}.muted{color:#556070}.thumb span{background:rgba(0,0,0,.8)}
+.mhero .lead,.lead{color:#d5dbe8}.tools input:focus,.pill:focus-visible,.btn:focus-visible,a:focus-visible{outline:3px solid #ffcc00;outline-offset:2px}
+.sites li{overflow-wrap:anywhere}pre,.mail{overflow-wrap:anywhere}
