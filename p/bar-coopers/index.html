@@ -36,7 +36,7 @@
   }
   function unlock(){
     try{
-      const html=atob(payload);
+      const html=new TextDecoder('utf-8').decode(Uint8Array.from(atob(payload),c=>c.charCodeAt(0)));
       const doc=new DOMParser().parseFromString(html,'text/html');
       const main=doc.querySelector('main');
       const title=doc.querySelector('title');
